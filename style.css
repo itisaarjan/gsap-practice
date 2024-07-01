@@ -95,11 +95,7 @@ nav{
     height: 100%;
 
 }
-.page-2{
-    width:100vw;
-    height: 100vh;
-    background-color: white;
-}
+
 .info{
     color: white;
     display: flex;
@@ -109,6 +105,11 @@ nav{
     font-size: 25px;
     font-weight: 600;
     padding: 30px;
+}
+.info p::first-letter{
+    font-size: 50px;
+    /* color: yellow; */
+
 }
 /*------------------button-------------------------*/
 .type--A{
@@ -324,3 +325,15 @@ nav{
 }
 
 /*------------------button-------------------------*/
+.page-2{
+    width:100vw;
+    height: 100vh;
+    background-color: skyblue;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    overflow: hidden;
+}
+.page-2 h1{
+    font-size:60vw
+}
